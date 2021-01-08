@@ -12,30 +12,33 @@
 }
 
 body{
-    background-image: url(ha-noi-moc-chau-2n1d.jpg);
+    background-image: url(ha-noi-moc-chau-2n1d.png);
     background-position: center;
     background-size: cover ;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    margin-top: 100px;
-    background-attachment: fixed;
+    margin-top: 25px;
+    
 }
 .link{
     width: 800px;
     background-color: rgb(0, 0, 0, 0.8);
-    margin: auto;
+    margin-top: 200px ;
+    margin-left: 605px;
     color: #ffffff ;
     padding: 10px 0px 10px 0px;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
+    top: -100px;
 }
 .main{
     width: 800px;
     background-color: rgb(0, 0, 0, 0.6);
-    margin: auto;
+    margin-top: -20px ;
+    margin-left: 575px;
 }
 form{
-    padding: 0px;
+    padding: 30px;
 }
 #name2{
     width: 100%;
@@ -44,7 +47,7 @@ form{
 }
 .name{
     margin-left: 25px;
-    margin-top: 0px;
+    margin-top: 5px;
     width: 125px;
     font-size: 15px;
     font-weight: 700px;
@@ -64,14 +67,16 @@ form{
     left: 200px;
     top: -25px;
     line-height: 40px;
-    border-radius: 6px;
-    padding: 0px 40px;
+    border-radius: 8px;
+    padding: 0px 0px;
     font-size: 30px;
+    text-align: center;
+    
 }
 .email1{
     position: relative;
     left: 200px;
-    top: -25px;
+    top: -35px;
     line-height: 40px;
     border-radius: 6px;
     padding: 0px 40px;
@@ -80,7 +85,7 @@ form{
 .number1{
     position: relative;
     left: 200px;
-    top: -25px;
+    top: -35px;
     line-height: 40px;
     border-radius: 6px;
     padding: 0px 40px;
@@ -124,7 +129,22 @@ form{
  outline: none;
  cursor: pointer;
  transition: 0.25px;
-}</style>
+}
+.option{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0px 45px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 250px;
+}
+.email{
+    left: 200px;
+}
+</style>
 <body>
 <!-- Static- Please don't do anything here-->
 <script type="text/javascript">var submitted=false;</script>
@@ -139,12 +159,26 @@ form{
     </div>
     <div class="name" id="name2">
         <h2 class="grade">Lớp/Khoa</h2>
-        <input type="text" name="entry.785791736" class="grade1"><br/>
-    </div>
+        <select  name="entry.785791736" class="grade1">
+         <option disabled="disabled" selected="selected">--answer--</option>   
+         <option>Quản lí tài nguyên & môi trường K59</option>
+         <option>Quản lí tài nguyên & môi trường K60</option>
+         <option>Quản lí tài nguyên & môi trường K61</option>
+         <option>Quản lí tài nguyên & môi trường K62</option>
+         <option>Đô thị K59</option>
+         <option>Đô thị K60</option>
+         <option>Đô thị K61</option>
+         <option>Đô thị K62</option>
+         <option>Khác</option>
+        </select>
+    </div>        
+    
+
     <div class="name" id="name2">
         <h2 class="email">Email</h2>
         <input type="text"  name="entry.1720179063" class="email1"><br/>
     </div>
+
     <div class="name" id="name2">
         <h2 class="number">Số điện thoại</h2>
         <input type="text"  name="entry.606524849" class="number1"><br/>
@@ -157,9 +191,13 @@ form{
         <h2 class="question2">Bạn có thích hoạt động nhóm ko :3</h2>
         <input type="text"  name="entry.2051888224" class="question22"><br/>
     </div>
-    <div class="name" id="name2">
-        <h2 class="question3">VẬY BẠN CÓ THAM GIA TÌNH NGUYỆN TẠI MỘC CHÂU 2021 KO!!</h2>
-        <input type="text"  name="entry.174944233" class="question33"><br/>
+    <div class="name" id="name2" >
+        <h2>VẬY BẠN CÓ THAM GIA TÌNH NGUYỆN TẠI MỘC CHÂU 2021 KO!!!</h2>
+       <select class="option"name="entry.905830804">
+       <option disabled="disabled" selected="selected" >--answer--</option>
+       <option>YESSSSS!!!</option>
+       <option>ko😒</option>
+    </select>
     </div>
     <input class="button" type="submit" value="SUBMIT!!">
    </div> 
