@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(aaaaaaaa.png);
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    margin-top: 130px;
+    margin-left: 40px;
+    background-position-y:0px ;
+    background-attachment: fixed;
+    z-index: 1;
+    
+}
+.link{
+    width: 800px;
+    background-color: rgb(0, 0, 0, 0.8);
+    margin-top: 400px;
+    margin-left: 530px;
+    color: #ffffff ;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.main{
+    top: 0px;
+    width: 800px;
+    background-color: rgb(0, 0, 0, 0.6);
+    margin-top: 10px;
+    margin-left: 500px;
+    position: relative;
+ 
+}
+form{
+    padding: 30px;
+}
+#name2{
+    width: 100%;
+    height: 100px;
+    color: rgb(255, 255, 255);
+}
+.name{
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 125px;
+    font-size: 15px;
+    font-weight: 700px;
+
+}
+.name1{
+    position: relative;
+    left: 200px;
+    top: -25px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0px 40px;
+    font-size: 30px;
+}
+.grade1{
+    position: relative;
+    left: 200px;
+    top: -25px;
+    line-height: 40px;
+    border-radius: 8px;
+    padding: 0px 0px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.grade3{
+    position: relative;
+    left: 200px;
+    top: -25px;
+    line-height: 40px;
+    border-radius: 8px;
+    padding: 0px 100px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.email1{
+    position: relative;
+    left: 200px;
+    top: -35px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0px 40px;
+    font-size: 30px;
+}
+.number1{
+    position: relative;
+    left: 200px;
+    top: -35px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0px 40px;
+    font-size: 30px;
+}
+.question11{
+    position: relative;
+    left: 500px;
+    top: -35px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+.question22{
+    position: relative;
+    left: 500px;
+    top: -35px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+.question33{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0px 200px;
+    font-size: 30px;
+}
+.button{
+ background-color: white;
+ display: block;
+ margin: auto;
+ text-align: center;
+ border-radius: 12px;
+ border: 2px solid #ffffff;
+ padding: 14px 100px ;
+ outline: none;
+ cursor: pointer;
+ transition: 0.25px;
+}
+.option{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0px 45px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 250px;
+}
+.email{
+    left: 200px;
+}
+select{
+    text-align: center;
+    text-align-last : center ;
+}
+.logo1{
+    position: absolute;
+    z-index: 2;
+    width: 75px ;
+    height: 75px;
+    top: 40px;
+    left: 1800px;
+}
+.logo2{
+    position: absolute;
+    z-index: 2;
+    width: 80px ;
+    height: 80px;
+    top: 40px;
+    left: 1700px;
+}
+.logo3{
+    position: absolute;
+   top: 40px;
+    width: 18in ;
+    height: 3in;
+}
+@media only screen and (min-width:768){
+    body{
+        display: block;
+        width: 100%;
+        
+    }
+}
